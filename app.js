@@ -2,8 +2,8 @@ import express from 'express';
 import cors from 'cors';
 const app = express();
 import "./connection/connection.js";
-import auth from '../server/routes/auth.js'
-import listData from '../server/routes/listData.js'
+import auth from './routes/auth.js'
+import listData from './routes/listData.js'
 import dotenv from 'dotenv';
 dotenv.config();
 app.use(express.json());
