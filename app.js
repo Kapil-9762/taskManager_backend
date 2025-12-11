@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 const app = express();
-import "./connection/connection.js";
+import './src/connection/connection.js';
 import auth from './routes/auth.js'
 import listData from './routes/listData.js'
 import dotenv from 'dotenv';
